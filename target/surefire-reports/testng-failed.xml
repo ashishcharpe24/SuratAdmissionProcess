@@ -7,6 +7,7 @@
         <methods>
           <include name="loginFormLocatorsTest"/>
           <include name="loadConfig"/>
+          <include name="registration_form_details"/>
         </methods>
       </class> <!-- com.qa.test.Surat_Registration_Form -->
     </classes>

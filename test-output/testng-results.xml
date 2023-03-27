@@ -14,16 +14,16 @@
       <![CDATA[URL Entered]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-27T15:44:18 IST" name="Suite" finished-at="2023-03-27T15:44:54 IST" duration-ms="36646">
+  <suite started-at="2023-03-27T16:04:31 IST" name="Suite" finished-at="2023-03-27T16:04:45 IST" duration-ms="13494">
     <groups>
     </groups>
-    <test started-at="2023-03-27T15:44:18 IST" name="Test" finished-at="2023-03-27T15:44:54 IST" duration-ms="36646">
+    <test started-at="2023-03-27T16:04:31 IST" name="Test" finished-at="2023-03-27T16:04:45 IST" duration-ms="13494">
       <class name="com.qa.test.Surat_Registration_Form">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.test.Surat_Registration_Form@201a4587]" started-at="2023-03-27T15:44:18 IST" name="loadConfig" finished-at="2023-03-27T15:44:18 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.test.Surat_Registration_Form@201a4587]" started-at="2023-03-27T16:04:31 IST" name="loadConfig" finished-at="2023-03-27T16:04:31 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method signature="intiate_browser()[pri:0, instance:com.qa.test.Surat_Registration_Form@201a4587]" started-at="2023-03-27T15:44:18 IST" name="intiate_browser" finished-at="2023-03-27T15:44:23 IST" duration-ms="5166" status="PASS">
+        <test-method signature="intiate_browser()[pri:0, instance:com.qa.test.Surat_Registration_Form@201a4587]" started-at="2023-03-27T16:04:31 IST" name="intiate_browser" finished-at="2023-03-27T16:04:37 IST" duration-ms="5682" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Opened]]>
@@ -33,7 +33,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- intiate_browser -->
-        <test-method signature="registration_form_details()[pri:1, instance:com.qa.test.Surat_Registration_Form@201a4587]" started-at="2023-03-27T15:44:23 IST" name="registration_form_details" finished-at="2023-03-27T15:44:43 IST" duration-ms="20244" status="FAIL">
+        <test-method signature="registration_form_details()[pri:1, instance:com.qa.test.Surat_Registration_Form@201a4587]" started-at="2023-03-27T16:04:37 IST" name="registration_form_details" finished-at="2023-03-27T16:04:41 IST" duration-ms="3959" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -42,9 +42,9 @@ from unknown error: web view not found
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92f414e7e1fe9fcec79dc96f7690bfcf, findElement {using=xpath, value=(//input[@name='FatherFirstName'])[2]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62820/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92f414e7e1fe9fcec79dc96f7690bfcf]]>
+Command: [2a79d3c5128a82b761532c6c04206c90, findElement {using=id, value=SaveAndContinueButtonPageOne}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63670/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a79d3c5128a82b761532c6c04206c90]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -53,9 +53,9 @@ from unknown error: web view not found
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92f414e7e1fe9fcec79dc96f7690bfcf, findElement {using=xpath, value=(//input[@name='FatherFirstName'])[2]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62820/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92f414e7e1fe9fcec79dc96f7690bfcf
+Command: [2a79d3c5128a82b761532c6c04206c90, findElement {using=id, value=SaveAndContinueButtonPageOne}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63670/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a79d3c5128a82b761532c6c04206c90
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -72,7 +72,10 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at com.qa.locators.Surat_registration_form_locators.fill_registration_form_info(Surat_registration_form_locators.java:518)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.qa.locators.Surat_registration_form_locators.fill_registration_form_info(Surat_registration_form_locators.java:151)
 at com.qa.test.Surat_Registration_Form.registration_form_details(Surat_Registration_Form.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -108,7 +111,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration_form_details -->
-        <test-method signature="loginFormLocatorsTest()[pri:2, instance:com.qa.test.Surat_Registration_Form@201a4587]" started-at="2023-03-27T15:44:43 IST" name="loginFormLocatorsTest" finished-at="2023-03-27T15:44:54 IST" duration-ms="11166" status="FAIL">
+        <test-method signature="loginFormLocatorsTest()[pri:2, instance:com.qa.test.Surat_Registration_Form@201a4587]" started-at="2023-03-27T16:04:41 IST" name="loginFormLocatorsTest" finished-at="2023-03-27T16:04:45 IST" duration-ms="3774" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -117,9 +120,9 @@ from unknown error: web view not found
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b27be9611c6e988ae1edf213abb1dec3, findElement {using=xpath, value=//span[text()='Admissions']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62865/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b27be9611c6e988ae1edf213abb1dec3]]>
+Command: [9b44d32d9f87037fc4e6f6470bbda0f2, findElement {using=xpath, value=//input[@type='search']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63716}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63716/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b44d32d9f87037fc4e6f6470bbda0f2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -128,9 +131,9 @@ from unknown error: web view not found
 Build info: version: '4.5.3', revision: '4b786a1e430'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b27be9611c6e988ae1edf213abb1dec3, findElement {using=xpath, value=//span[text()='Admissions']}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62865/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b27be9611c6e988ae1edf213abb1dec3
+Command: [9b44d32d9f87037fc4e6f6470bbda0f2, findElement {using=xpath, value=//input[@type='search']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63716}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63716/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b44d32d9f87037fc4e6f6470bbda0f2
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -147,8 +150,11 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at com.qa.locators.Surat_registration_form_locators.admissionProcessStaffSide(Surat_registration_form_locators.java:873)
-at com.qa.test.Surat_Registration_Form.loginFormLocatorsTest(Surat_Registration_Form.java:37)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+at com.qa.locators.Login_form_locators.surat_AdmissionProcessStaffSide(Login_form_locators.java:55)
+at com.qa.test.Surat_Registration_Form.loginFormLocatorsTest(Surat_Registration_Form.java:36)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

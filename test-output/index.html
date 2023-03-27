@@ -155,9 +155,9 @@ from unknown error: web view not found
 Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b27be9611c6e988ae1edf213abb1dec3, findElement {using=xpath, value=//span[text()=&apos;Admissions&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62865/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b27be9611c6e988ae1edf213abb1dec3
+Command: [9b44d32d9f87037fc4e6f6470bbda0f2, findElement {using=xpath, value=//input[@type=&apos;search&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63716}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63716/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b44d32d9f87037fc4e6f6470bbda0f2
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -169,8 +169,11 @@ Session ID: b27be9611c6e988ae1edf213abb1dec3
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at com.qa.locators.Surat_registration_form_locators.admissionProcessStaffSide(Surat_registration_form_locators.java:873)
-	at com.qa.test.Surat_Registration_Form.loginFormLocatorsTest(Surat_Registration_Form.java:37)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
+	at com.qa.locators.Login_form_locators.surat_AdmissionProcessStaffSide(Login_form_locators.java:55)
+	at com.qa.test.Surat_Registration_Form.loginFormLocatorsTest(Surat_Registration_Form.java:36)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -187,9 +190,9 @@ from unknown error: web view not found
 Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [92f414e7e1fe9fcec79dc96f7690bfcf, findElement {using=xpath, value=(//input[@name=&apos;FatherFirstName&apos;])[2]}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62820/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92f414e7e1fe9fcec79dc96f7690bfcf
+Command: [2a79d3c5128a82b761532c6c04206c90, findElement {using=id, value=SaveAndContinueButtonPageOne}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 111.0.5563.111, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\acharpe\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63670}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63670/devtoo..., se:cdpVersion: 111.0.5563.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a79d3c5128a82b761532c6c04206c90
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -201,7 +204,10 @@ Session ID: 92f414e7e1fe9fcec79dc96f7690bfcf
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at com.qa.locators.Surat_registration_form_locators.fill_registration_form_info(Surat_registration_form_locators.java:518)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.qa.locators.Surat_registration_form_locators.fill_registration_form_info(Surat_registration_form_locators.java:151)
 	at com.qa.test.Surat_Registration_Form.registration_form_details(Surat_Registration_Form.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
@@ -279,22 +285,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'registration_form_details')
+data.setCell(0, 1, 'intiate_browser')
 data.setCell(0, 2, 'com.qa.test.Surat_Registration_Form')
-data.setCell(0, 3, 20244);
+data.setCell(0, 3, 5682);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginFormLocatorsTest')
+data.setCell(1, 1, 'registration_form_details')
 data.setCell(1, 2, 'com.qa.test.Surat_Registration_Form')
-data.setCell(1, 3, 11166);
+data.setCell(1, 3, 3959);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'intiate_browser')
+data.setCell(2, 1, 'loginFormLocatorsTest')
 data.setCell(2, 2, 'com.qa.test.Surat_Registration_Form')
-data.setCell(2, 3, 5166);
+data.setCell(2, 3, 3774);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -347,13 +353,13 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">registration_form_details</span>
-                <span class="method-start">5190 ms</span>
+                <span class="method-start">5707 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginFormLocatorsTest</span>
-                <span class="method-start">25438 ms</span>
+                <span class="method-start">9682 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

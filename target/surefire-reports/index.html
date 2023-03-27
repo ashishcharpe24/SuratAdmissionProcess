@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.qa.test.Surat_Registration_Form" class="method navigator-link" hash-for-method="loginFormLocatorsTest">loginFormLocatorsTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.qa.test.Surat_Registration_Form" class="method navigator-link" hash-for-method="intiate_browser">intiate_browser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.qa.test.Surat_Registration_Form" class="method navigator-link" hash-for-method="loginFormLocatorsTest">loginFormLocatorsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,39 +129,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.test.Surat_Registration_Form</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginFormLocatorsTest">
-                  </a> <!-- loginFormLocatorsTest -->
-                  <span class="method-name">loginFormLocatorsTest</span>
-                  <div class="stack-trace">org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:59061/devtools/browser/5f63f870-7940-464d-a5a5-d6067e5f30cc
-Build info: version: &apos;4.5.3&apos;, revision: &apos;4b786a1e430&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.base/java.util.Optional.map(Optional.java:260)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at com.qa.base.BaseClass.launchAppStaff(BaseClass.java:84)
-	at com.qa.test.Surat_Registration_Form.loginFormLocatorsTest(Surat_Registration_Form.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -182,6 +140,13 @@ Driver info: driver.version: ChromeDriver
                   <a name="intiate_browser">
                   </a> <!-- intiate_browser -->
                   <span class="method-name">intiate_browser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFormLocatorsTest">
+                  </a> <!-- loginFormLocatorsTest -->
+                  <span class="method-name">loginFormLocatorsTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -249,15 +214,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'registration_form_details')
 data.setCell(0, 2, 'com.qa.test.Surat_Registration_Form')
-data.setCell(0, 3, 151554);
+data.setCell(0, 3, 148059);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'intiate_browser')
+data.setCell(1, 1, 'loginFormLocatorsTest')
 data.setCell(1, 2, 'com.qa.test.Surat_Registration_Form')
-data.setCell(1, 3, 5814);
+data.setCell(1, 3, 15233);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginFormLocatorsTest')
+data.setCell(2, 1, 'intiate_browser')
 data.setCell(2, 2, 'com.qa.test.Surat_Registration_Form')
-data.setCell(2, 3, 987);
+data.setCell(2, 3, 4413);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -275,6 +240,13 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
               <span class="reporter-method-name">intiate_browser</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser Opened</span>
+                <span class="reporter-method-output">URL Entered</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginFormLocatorsTest</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Browser Opened</span>
                 <span class="reporter-method-output">URL Entered</span>
@@ -302,17 +274,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">intiate_browser</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">11 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">registration_form_details</span>
-                <span class="method-start">5837 ms</span>
+                <span class="method-start">4431 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">loginFormLocatorsTest</span>
-                <span class="method-start">157393 ms</span>
+                <span class="method-start">152490 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -654,7 +654,7 @@ public class Surat_registration_form_locators extends BaseClass {
 			dr.findElement(m_id_num).sendKeys("2222222");
 			Thread.sleep(500);
 			Select medu = new Select(dr.findElement(m_edu));
-			medu.selectByValue("Post Graduate – Science");
+			medu.selectByValue("B.Tech");
 			Thread.sleep(500);
 			Select mai = new Select(dr.findElement(m_anu_income));
 			mai.selectByValue("100000 to 500000");
