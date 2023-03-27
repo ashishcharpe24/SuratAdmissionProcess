@@ -5,6 +5,7 @@
     <classes>
       <class name="com.qa.test.Surat_Registration_Form">
         <methods>
+          <include name="loginFormLocatorsTest"/>
           <include name="loadConfig"/>
           <include name="registration_form_details"/>
         </methods>

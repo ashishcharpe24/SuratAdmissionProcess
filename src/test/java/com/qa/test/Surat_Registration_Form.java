@@ -23,6 +23,7 @@ public class Surat_Registration_Form extends BaseClass {
 		s.fill_registration_form_info();
 //		Surat_registration_form_locators s1 = new Surat_registration_form_locators(dr);
 		//s1.fill_registration_form_info();
+	
 		
 	}
 	

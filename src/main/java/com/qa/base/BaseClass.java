@@ -46,6 +46,7 @@ public class BaseClass {
 		if (browserName.contains("Chrome")) {
 			WebDriverManager.chromedriver().setup();
 			opt1 = new ChromeOptions();
+			opt1.addArguments("--remote-allow-origins=*");
 			opt1.addArguments("--disable-infobars");
 			opt1.setAcceptInsecureCerts(true);
 			dr = new ChromeDriver(opt1);
@@ -77,6 +78,7 @@ public class BaseClass {
 			WebDriverManager.chromedriver().setup();
 			opt1 = new ChromeOptions();
 			opt1.addArguments("incognito");
+			opt1.addArguments("--remote-allow-origins=*");
 			opt1.addArguments("--disable-infobars");
 			opt1.setAcceptInsecureCerts(true);
 //			opt1.setPageLoadStrategy(PageLoadStrategy.NONE);

@@ -178,7 +178,6 @@ public class Surat_registration_form_locators extends BaseClass {
 				{
 					years = dr.findElements(By.xpath("//tbody//tr//td//button//span"));
 					String year = years.get(j).getText();
-					System.out.println(year);	
 					if(yearExp.equalsIgnoreCase(year))
 					{
 						yearMatched=1;
@@ -505,6 +504,7 @@ public class Surat_registration_form_locators extends BaseClass {
 			Thread.sleep(500);
 			dr.findElement(Save4).click();
 			Thread.sleep(10000);
+			dr.close();
 
 		}
 
@@ -541,7 +541,6 @@ public class Surat_registration_form_locators extends BaseClass {
 				{
 					years = dr.findElements(By.xpath("//tbody//tr//td//button//span"));
 					String year = years.get(j).getText();
-					System.out.println(year);	
 					if(yearExp.equalsIgnoreCase(year))
 					{
 						yearMatched=1;
@@ -860,6 +859,7 @@ public class Surat_registration_form_locators extends BaseClass {
 			Thread.sleep(500);
 			dr.findElement(Save4).click();
 			Thread.sleep(10000);
+			dr.close();
 		}
 	}
 
